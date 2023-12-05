@@ -2,7 +2,7 @@
     --primary-color: rgb(255, 92, 92);
     --primary-variant: #ff2d2d;
     --secondary-color: #1b9999;
-    --on-primary: rgb(162, 43, 177);
+    --on-primary: rgb(255, 255, 255);
     --on-background: rgb(66, 66, 66);
     --on-background-alt: rgba(66, 66, 66, 0.7);
     --background: rgb(255, 255, 255);
@@ -144,6 +144,7 @@ button:disabled {
     text-align: justify;
     background: rbg(0 0 0 / 50%);
     color: var(--on-primary);
+    background-color: var(--on-background-alt);
     border-radius: 10px;
     padding: 30px;
 }
@@ -151,3 +152,5 @@ p {
     margin: 0;
     line-height: 25px;
 }
+/* contact section */
+ 
