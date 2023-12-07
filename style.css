@@ -160,9 +160,9 @@ p {
     align-items: center;
     z-index: 100;
     position: fixed;
-    left: 25px;
+    left: 400px;
     top: 30px;
-    right: auto;
+    right: 10px;
 }
 .theme-switch-wrapper span {
     margin-right: 10px;
@@ -220,7 +220,7 @@ input:checked + .slider::before {
 .slider::before{
     border-radius: 50%;
 }
-.fas {
+.fa-solid {
     font-size: 30px;
     margin-right: 5px;
 }
