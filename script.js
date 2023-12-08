@@ -14,7 +14,22 @@ textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)'
 toggleIcon.children[0].textContent = 'Dark Mode'
 toggleIcon.children[1].classList.remove('fa-sun')
 toggleIcon.children[1].classList.add('fa-moon')
+image1.src = 'img/undraw_business_chat_re_gg4h_dark.svg'
+image2.src = 'img/undraw_online_test_re_kyfx_dark.svg'
+image3.src = 'img/undraw_team_effort_yj7m_dark.svg'
 }
+// light mode styles
+function lightMode(){
+    nav.style.backgroundColor = 'rgb(255 255 255 / 50%)'
+    textBox.style.backgroundColor = 'rgb(0 0 0 / 50%)'
+    toggleIcon.children[0].textContent = 'Light Mode'
+    toggleIcon.children[1].classList.remove('fa-moon')
+    toggleIcon.children[1].classList.add('fa-sun')
+    image1.src = 'img/undraw_business_chat_re_gg4h_light.svg'
+    image2.src = 'img/undraw_online_test_re_kyfx_light.svg'
+    image3.src = 'img/undraw_team_effort_yj7_light.svg'
+    }
+
 
 
 // swtich theme dynamically

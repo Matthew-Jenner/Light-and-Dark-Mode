@@ -84,6 +84,7 @@ a:focus {
 display: flex;
 }
 .image-container {
+    display: inline-block;
    border: 1px solid;
    border-radius: 10px;
    padding: 10px 20px;
@@ -160,7 +161,7 @@ p {
     align-items: center;
     z-index: 100;
     position: fixed;
-    left: 400px;
+    left: 320px;
     top: 30px;
     right: 10px;
 }
